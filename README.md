@@ -10,3 +10,12 @@ brainy-cn翻译包
 
 <h2>使用教程</h2>
 访问以下地址 https://blog.fywlnet.cn/194.html
+
+<h2>投喂</h2>			
+<h4>微信扫一扫投喂</h4>
+<img src="https://blog.fywlnet.cn/images/1539175170786.jpg">
+<h4>支付宝扫一扫投喂</h4>
+<img src="https://blog.fywlnet.cn/images/1539175192974.jpg">
+
+
+by FYWL -AS113923
