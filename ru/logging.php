@@ -30,5 +30,22 @@ $lang = array(
     'logging_rotUserLogsTitle'		=> '用户日志',
     'logging_rotUserLogsHint'		=> '在存档中执行上个月的日志压缩，如果处于活动状态，则在执行cron_log cron任务之后执行启动',
 
+    'logging_ConfPeriod' => '发布期',
+    'logging_ConfPeriodHourly' => '每小时一次',
+    'logging_ConfPeriodDaily' => '每一天',
+    'logging_ConfPeriodWeekly' => '每周',
+    'logging_ConfPeriodMonthly' => '每个月',
+    'logging_ConfSave' => '保留',
+    'logging_ConfSaveAllUser' => '适用于所有用户',
+    'logging_ConfCountCountLogs' => '保留旧日志的数量',
+    'logging_ConfCountCountLogsPlace' => '输入数字',
+    'logging_ConfCompress' => '压缩',
+    'logging_ConfFormat' => '名称格式',
+    'logging_ConfFormatDate' => '日期',
+    'logging_ConfFormatNumber' => '序号',
+    'logging_ConfUserTitleConfigure' => '设置用户日志轮换',
 
+    'logging_activeServiceLog' => '记录日志',
+    'logging_confLogrotSaveok' => '保存成功',
+    'logging_confLogrotEnDisOk' => '保存成功',
 );
