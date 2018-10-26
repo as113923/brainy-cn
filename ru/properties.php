@@ -170,7 +170,7 @@ $lang = array(
     'properties_failedemailFieldTest' => '测试发送的电子邮件格式错误',
     'properties_failedemailFieldTestEmtpy' => '指定发送测试的邮箱',
     'properties_hintIfFailedHelp' => '连接错误的原因： <br/>例如gmail：请检查：<br/> <br/> 1。 <a target=`_blank` href=`https://myaccount.google.com/device-activity?hl=zh-CN&pli=1`>最近的设备</a> <br/> 2。 <a target=`_blank` href=`https://myaccount.google.com/u/0/lesssecureapps`>安全性</a> <br/> 3. <a target=`_blank` href=`https://accounts.google.com/b/0/DisplayUnlockCaptcha`> Captive Unlock </a>',
-    'Properties_hintHelpConfig' => '通过SMTP发送邮件的设置：<br/>当前服务器：端口：587,SMTP服务器：localhost <br/> gmail.com服务器：端口：587,SMTP服务器：smtp.gmail.com',
+    'Properties_hintHelpConfig' => '通过SMTP发送邮件的设置:<br/>当前服务器:端口:587,SMTP服务器:localhost<br/> gmail.com服务器:端口:587,SMTP服务器:smtp.gmail.com',
     'properties_error_user' => '用户名错误',
     'properties_forbiden_users' => '禁止用户',
     'properties_forbiden_users_label' => '禁止用户的列表：',

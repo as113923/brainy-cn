@@ -425,57 +425,57 @@
 
         'backupYandexInstructionGetOAuth' => 'Получение доступа к Яндекс диску. Выполните следующие инструкции: <br/> 1. Перейдите по <a target=``_blank`` href=``https://oauth.yandex.ru/``>ссылке</a> и авторизуйтесь<br/>2. Нажмите на `Зарегистрировать новое приложение`<br/>3.  Выполните необходимые настройки, указав Название приложения, Описание приложения. В секции Платформы отметьте пункт Веб-сервисы и нажмите кнопку Подставить URL для разработки<br/>4. В секции Доступы выберите все пункты Яндекс.Диск REST API<br/>5. Теперь нажмите на Создать приложение<br/>6. Когда Ваше приложение будет успешно создано, перейдите по адресу https://oauth.yandex.ru/authorize?response_type=token&client_id=ВАШ_АЙДИ заменив ВАШ_АЙДИ на ID приложения<br/> 7. Нажмите кнопку Разрешить для подтверждения запроса доступа<br/> 8. Скопируйте и вставьте токен в поле <b>Токен конфигурации бэкапов</b> и снова нажмите Проверить соединение',
 
-        'backupHintUseKeysAuth' => 'Авторизация с помощью ключа<br/><br/> 1. Сгенерируйте ключ<br/><br/> 2. На <b>удаленном сервере</b> в файл /root/.ssh/authorized_keys добавьте строку с содержимым Публичного ключа ssh-rsa<br/>',
+        'backupHintUseKeysAuth' => '主要授权<br/><br/> 1. 生成密钥<br/><br/> 2. 的 <b>远程服务器</b> 提交 /root/.ssh/authorized_keys 添加一行包含ssh-rsa公钥的内容<br/>',
 
-        'backup_restoring_startModal' => 'Восстановление начато.<br/> Детали на вкладке История восстановлений',
+        'backup_restoring_startModal' => '恢复开始了.<br/> 恢复历史记录选项卡的详细信息',
 
         'backup_hintPeriodRun' => '<b>Инкрементный + Ежедневно.</b> Количество резервных копий = 1 бэкап, формат имени user_айдибэкапа_incr<hr/><b>Без сжатия(tar) + Ежедневно.</b> Количество резервных копий = только ограничение параметром Количество копий, формат user_айдибэкапа_ГГММДД_s<hr/><b>Инкрементный + Еженедельно.</b> Количество резервных копий = количество выбранных дней для бэкапа, формат user_айдибэкапа_деньнедели<hr/><b>Без сжатия(tar) + Еженедельно.</b> Количество резервных копий = только ограничение параметром Количество копий, формат user_айдибэкапа_ГГММДД_деньнедели_s<hr/><b>Инкрементный + Ежемесячно.</b> Количество резервных копий = количество выбранных дней для бэкапа, формат user_айдибэкапа_дата_m<hr/><b>Без сжатия(tar) + Ежемесячно.</b> Количество резервных копий = только ограничение параметром Количество копий, формат user_айдибэкапа_ГГММДД_m_s',
 
-        'backup_logs_stat_deleted' => 'Удален',
-        'backup_logs_stat_deletedInfo' => 'Файл лога удален',
-        'backup_titleLogHistBacks' => 'История бэкапирования',
+        'backup_logs_stat_deleted' => '删除',
+        'backup_logs_stat_deletedInfo' => '日志文件已删除',
+        'backup_titleLogHistBacks' => '备份历史记录',
 
-        'backup_titleDialogEnterPassBackup' => 'Скачиваемый бэкап зашифрован. Для расшифровки бэкапа введите пароль и нажмите скачать.',
+        'backup_titleDialogEnterPassBackup' => '可下载的备份已加密.要解密备份,请输入密码并单击下载.',
 
-        'backup_titleDialogStartRestore' => 'Восстановление бэкапа: ',
-        'backup_titleDialogCheckPassEncoded' => 'Выполняется проверка введеного пароля. Пожалуйста, подождите. Время выполнения зависит от размера бэкапа',
-        'backup_titleDialogCheckWaitExist' => 'Пожалуйста, подождите.',
-        'backup_titleDialogEnterpassRequire' => 'Введите пароль для зашифрованного бэкапа.',
-        'backup_FailedConnWhileCreateBackupRemote' => 'Ошибка подключения к удаленному серверу. Пожалуйста, проверьте настройки соединения.',
+        'backup_titleDialogStartRestore' => '还原备份: ',
+        'backup_titleDialogCheckPassEncoded' => '检查输入的密码.请稍等 执行时间取决于备份的大小。',
+        'backup_titleDialogCheckWaitExist' => '请稍等.',
+        'backup_titleDialogEnterpassRequire' => '输入加密备份的密码.',
+        'backup_FailedConnWhileCreateBackupRemote' => '连接到远程服务器时出错.请检查您的连接设置。.',
 
-        'backup_UnpackEncodedBackupTitle' => 'Распаковать зашифрованный бэкап в локальную папку пользователя?',
+        'backup_UnpackEncodedBackupTitle' => '将加密备份解压缩到本地用户文件夹?',
 
-        'backup_btnUnpackCancel' => 'Закрыть',
-        'backup_btnUnpackFailedLog' => 'Ошибка дешифрования бэкапа. Неверный пароль.',
+        'backup_btnUnpackCancel' => '关闭',
+        'backup_btnUnpackFailedLog' => '解密备份时出错.密码无效.',
 
-        'backup_changeIP' => 'Сменить IP адрес аккаунта',
+        'backup_changeIP' => '更改帐户IP地址',
 
-        'backup_gdriveGetFilesTempError' => 'Временная ошибка получения списка файлов gDrive. Пожалуйста, повторите еще раз. Если ошибка не исчезнет проверьте настройки файрвола.',
+        'backup_gdriveGetFilesTempError' => '检索gDrive文件列表时出现临时错误。 请再试一次。 如果错误没有消失，请检查防火墙设置.',
 
-        'backup_mass_backupRestore' => 'Восстановить выбранные',
-        'backup_mass_backupNothingSel' => 'Ничего не выбрано',
-        'backup_mass_backupRestoreSomeConfirm' => 'Восстановить несколько пользователей?',
-        'backup_mass_backupRestoreSelMultBackForOneUser' => 'Выбрано несколько бэкапов для восстановления для одного пользователя.',
-        'backup_mass_backupRestoreCodeOneItem' => 'Восстановление зашифрованных бэкапов возможно только по одному',
+        'backup_mass_backupRestore' => '恢复已选中',
+        'backup_mass_backupNothingSel' => '没有选择',
+        'backup_mass_backupRestoreSomeConfirm' => '恢复多个用户?',
+        'backup_mass_backupRestoreSelMultBackForOneUser' => '为一个用户选择了几个备份以进行恢复.',
+        'backup_mass_backupRestoreCodeOneItem' => '只能逐个恢复加密备份',
 
-        'backupStopMakeBackup' => 'Остановить создание бэкапа',
-        'backupStopMakeBackupConfirm' => 'Остановить создание бэкапа? <br/>Внимание! Прерывание создания бэкапа не удаляет уже созданные файлы по адресу резервной копии.',
-        'backupStopMakeBackupOk' => 'Создание бэкапа остановлено',
-        'backupStopMakeBackupCancelLog' => 'Прервано пользователем',
+        'backupStopMakeBackup' => '停止创建备份',
+        'backupStopMakeBackupConfirm' => '停止创建备份？ <br/>警告！ 中断备份不会删除已在备份地址创建的文件.',
+        'backupStopMakeBackupOk' => '备份创建已停止',
+        'backupStopMakeBackupCancelLog' => '被用户中断',
 
-        'backupStopMakeRestore' => 'Остановить восстановление бэкапа',
-        'backupStopMakeRestoreConfirm' => 'Остановить восстановление бэкапа? <br/>Внимание! Прерывание восстановления бэкапа не возращает хост-аккаунт в старое состояние до восстановление, а лишь останавливает процесс по требованию.',
-        'backupStopMakeRestoreOk' => 'Восстановление бэкапа остановлено',
-        'backupStopMakeRestoreCancelLog' => 'Восстановление прервано пользователем',
-        'backupFullListRestUser' => 'Полный список восстановленных пользователей',
+        'backupStopMakeRestore' => '停止恢复备份',
+        'backupStopMakeRestoreConfirm' => '停止恢复备份？ <br/>警告！ 中断恢复备份不会在恢复之前将主机帐户返回到旧状态，而只会停止按需进程.',
+        'backupStopMakeRestoreOk' => '备份恢复已停止',
+        'backupStopMakeRestoreCancelLog' => '恢复由用户中止',
+        'backupFullListRestUser' => '已恢复用户的完整列表',
 
-        'backup_FailedCreateDir' => 'Ошибка создания директории на удаленном сервере. Пожалуйста, проверьте, что указанный пользователь в параметрах подключения имеет права на запись в указанный каталог.',
-        'backupRemoteConnPort' => 'Порт',
-        'backupRemoteConnPortHolder' => 'По умолчанию порт для ssh - 22, для ftp - 21',
-        'backupRemoteConnPortErr' => 'Порт для подключения должен быть целым числом',
-        'backupDbSizeMB' => 'мб',
-        'backupDbSizeKB' => 'кб',
-        'backupDbSizeB' => 'б',
+        'backup_FailedCreateDir' => '在远程服务器上创建目录时出错 请检查连接设置中的指定用户是否具有对指定目录的写访问权.',
+        'backupRemoteConnPort' => '端口',
+        'backupRemoteConnPortHolder' => 'ssh的默认端口是22，对于ftp，它是21',
+        'backupRemoteConnPortErr' => '连接端口必须是整数',
+        'backupDbSizeMB' => 'MB',
+        'backupDbSizeKB' => 'KB',
+        'backupDbSizeB' => 'B',
 
     )
 ?>
