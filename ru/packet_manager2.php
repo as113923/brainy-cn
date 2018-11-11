@@ -25,5 +25,6 @@ $lang = array(
     'package_error_config'		=> '配置错误',	
     'package_not_file_repair_conf'		=> '找不到恢复文件.',	
     'package_confirm'		=> '确认此操作',
+	'package_install_version'		=> '已安装的版本 ',	
 	
 );

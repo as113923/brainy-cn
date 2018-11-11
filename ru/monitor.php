@@ -67,6 +67,7 @@ $lang = array (
     'monitor_file_saved' => '保存文件',
     'monitor_saved_susspended' => '成功保存',
     'monitor_long_text' => '注意：cron未在服务器上运行，监视可能无法正常工作，安装并运行crond以进行正确的操作。',
+	
     'monitor_information' => '信息',
     'monitor_setting' => '设置',
     'monitor_servises' => '服务',

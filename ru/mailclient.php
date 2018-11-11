@@ -493,6 +493,7 @@ $lang = array (
     'mailclient_not_quality_domain' => '配置文件中没有qualify_domain',
     'mailclient_qualify_save_failed' => '域格式无效.',
     'mailclient_qualify_save_ok' => '保存成功.',
-	
+	'mailclient_error_add_root' => '不允许用户添加此邮箱',
+    'mailclient_not_dirctory_email' => '没有邮箱目录',
 
 );

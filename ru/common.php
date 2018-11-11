@@ -291,6 +291,13 @@ $lang = array(
     "child_human_logtransStartFromRemote" => "请等待，从远程服务器转移用户",
 
     'child_human__yandexGetBackup' => '从YandexDisk获取备份',
+	'common_control_packet_menager' => '通过包管理器进行管理',
+    'common_install_version' => '已安装的版本',
+    'commonGmailWarning' => '小于xxxMb可用，无法创建备份。 请释放空间.',
+    'commonFewSpace' => '没有足够的空间.需要额外的 ',
+    'commonFewSpaceMsg' => '需要额外的 ',
+    'commonSizeMb' => 'MB',
+    'commonEnoughSpace' => '足够的空间.装载.',
 
 
 

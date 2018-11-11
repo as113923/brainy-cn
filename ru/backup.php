@@ -476,6 +476,14 @@
         'backupDbSizeMB' => 'MB',
         'backupDbSizeKB' => 'KB',
         'backupDbSizeB' => 'B',
+        'backupGmailQuotaInfo' => '谷歌硬盘上的可用磁盘空间: ',
+        'backupEstimatedSize' => '最大估计存档大小: ',
+        'backupGmailOverQuota' => 'Google驱动器配额已超出.请释放空间.',
+        'backupGmailOverQuotaAllow' => '可得到 ',
+        'backupGmailOverQuotaRequire' => '必须 ',
+        'backupGmailWarning' => '可用的小于500MB，无法进行备份.请释放空间.',
+        'backupFewSpace' => '没有足够的空间.备份失败.任务 ',
 
     )
 ?>
+
